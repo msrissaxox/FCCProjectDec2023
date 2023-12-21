@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  .top-nav-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+
+  a {
+    text-decoration: none;
+    color: #585B56;
+  }
+  ul li {
+    list-style: none;
+  }
+  .video {
+    display: none;
+  }
+  .form-section {
+    display: flex;
+  }
+  
+  input[type="submit"] {
+    background-color: #585B56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+  }
