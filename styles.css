@@ -34,7 +34,7 @@ body {
 
   a {
     text-decoration: none;
-    color: #585B56;
+    color: #000;
   }
 
   #header {
@@ -55,12 +55,24 @@ body {
    display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+#descript {
+    grid-row: 1;
+    grid-column: 1; 
+}
+
+#products > img.image1 {
+    grid-row: 1;
+    grid-column: 2;
 }
   #about {
-    grid-column: 1;
-    grid-row: 1;
     font-size: 20px;
+    text-align: center;
+    grid-row: 3;
+    grid-column: 1;
   }
   
 
