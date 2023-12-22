@@ -51,7 +51,7 @@ body {
     font-size: 25px;
   }
   .video {
-    display: none;
+    display
   }
   .form-section {
     display: flex;
@@ -69,4 +69,3 @@ body {
     max-height: 500px;
   }
 
-  
