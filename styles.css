@@ -44,6 +44,7 @@ body {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+    margin-top: 0;
 }
   #header {
     display: flex;
@@ -63,8 +64,9 @@ body {
    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr;
-    margin-left: 50px;
-    margin-right: 50px;
+    column-gap: 10px;
+    margin: 10px;
+   
   
 }
 #descript {
@@ -72,17 +74,13 @@ body {
     grid-column: 1; 
 }
 
-#products > img.image1 {
-    grid-row: 1;
-    grid-column: 2;
-}
+
   #about {
     font-size: 20px;
     text-align: center;
     grid-row: 3;
     grid-column: 1;
   }
-  
 
 
   .form-section {
