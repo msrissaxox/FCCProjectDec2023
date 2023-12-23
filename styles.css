@@ -132,8 +132,9 @@ padding: 10px;
   }
 #locations {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90vw;
+    margin: 10px 50px;
 }
 .form-section {
     margin-top: 10px;
