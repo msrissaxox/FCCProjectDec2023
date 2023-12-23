@@ -3,6 +3,10 @@
 }
 body {
     margin: 0;
+    background-color: #fff;
+}
+html {
+    background-color: #fff;;
 }
   .top-nav-bar {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -64,7 +68,7 @@ body {
    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
+    column-gap: 5px;
     margin: 10px;
 }
 
@@ -116,9 +120,10 @@ padding: 10px;
   }
   
   #products img {
-    max-height: 500px;
+    max-height: 450px;
     display: inline-block;
     position: relative;
+    max-width: 350px;
   }
 #locations {
     display: inline-flex;
