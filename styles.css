@@ -62,26 +62,31 @@ body {
 
   .main-section {
    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 10px;
     margin: 10px;
    
   
 }
 #descript {
-    grid-row: 1;
-    grid-column: 1; 
+ grid-area: 1 / 1 / 1 / 1;
 }
+ .video {
+    grid-column: 2;
+    grid-row: 1;
+ }
 
 
   #about {
-    font-size: 20px;
     text-align: center;
-    grid-row: 3;
-    grid-column: 1;
+    display: none;
   }
 
+  #products {
+    grid-row: 2;
+    grid-column: 1 / span 2;;
+  }
 
   .form-section {
     display: flex;
@@ -102,5 +107,5 @@ body {
 #locations {
     display: inline-flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 90vw;
 }
