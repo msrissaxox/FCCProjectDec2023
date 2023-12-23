@@ -199,27 +199,15 @@ padding: 10px;
 /*Media Query for Mobile */
 @media only screen and (max-width: 600px) {
     .main-section {
-        display: grid;
-         grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
          width: 100%;
     }
-       #descript {
-        width: 100%;
-       }
+    
        #products {
         display: flex;
         flex-direction: column;
        }
-
-    .top-nav-bar {
-        width: 100%;
-    }
-    .main-section {
-        width: 100%;
-    }
-    .video {
-     
-    }
   }
 
   /*Media Query for Ipads */
