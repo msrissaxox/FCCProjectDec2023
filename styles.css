@@ -16,6 +16,7 @@ html {
 	animation: gradient 15s ease infinite;
     padding: 20px;
     position: sticky;
+    z-index: 1;
     top: 0;
     left: 0;
     font-family: 'Rubik Doodle Shadow';
