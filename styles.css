@@ -114,10 +114,10 @@ html {
 
 .products1, .products2, .products3, .products4 {
     position: relative;
-    border: solid;
     width: 100%;
-    max-height: 400px;
+    max-height: 450px;
   }
+  
 button {
     position: absolute;
     top: 90%;
