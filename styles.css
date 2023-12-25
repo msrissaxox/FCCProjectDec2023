@@ -23,7 +23,7 @@ html {
 }
 
 .top-nav-bar ul li  {
- padding: 5px;
+    padding: 5px;
 }
 
 @keyframes gradient {
@@ -77,9 +77,9 @@ html {
 }
 
 .video iframe {
-border-radius: 20px;
-border: none;
-padding: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
 
 }
 #descript {
@@ -114,20 +114,20 @@ padding: 10px;
   }
 
 
-  .products1, .products2, .products3, .products4 {
+.products1, .products2, .products3, .products4 {
     position: relative;
     border: solid;
   }
 
 
-  .form-section {
+.form-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
   
-  input[type="submit"] {
+input[type="submit"] {
     background-color: #585B56;
     color: white;
     border: none;
@@ -156,22 +156,22 @@ padding: 10px;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-     box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
   }
 
-  .btn-1 {
+.btn-1 {
     background: rgb(6,14,131);
     background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
     border: none;
   }
-  .btn-1:hover {
-     background: rgb(0,3,255);
+.btn-1:hover {
+    background: rgb(0,3,255);
     background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
   }
  
-  #products img {
+#products img {
     max-height: 450px;
     display: inline-block;
     max-width: 350px;
@@ -184,22 +184,22 @@ padding: 10px;
     .main-section {
         display: flex;
         flex-direction: column;
-         width: 100%;
+        width: 100%;
     }
     
-       #products {
+    #products {
         display: flex;
         flex-direction: column;
-       }
-       .heading {
+    }
+    .heading {
         font-size: 35px;
-       }
-       #descript p {
+    }
+    #descript p {
         font-size: 13px;
         font-weight: bold;
-       }
+    }
 
-       .form-section {
+    .form-section {
         margin-top: 10px;
         margin-bottom: 30px;
         display: flex;
