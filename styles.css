@@ -208,6 +208,13 @@ padding: 10px;
         display: flex;
         flex-direction: column;
        }
+       .heading {
+        font-size: 35px;
+       }
+       #descript p {
+        font-size: 13px;
+        font-weight: bold;
+       }
   }
 
   /*Media Query for Ipads */
