@@ -106,17 +106,19 @@ padding: 10px;
 
   #products {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     grid-row: 2;
     grid-column: 1 / span 2;
+    position: relative;
   }
+
+
   .products1, .products2, .products3, .products4 {
     position: relative;
     border: solid;
   }
-  .one {
-    position: absolute;
-  }
+
 
   .form-section {
     display: flex;
@@ -193,7 +195,7 @@ padding: 10px;
         font-size: 13px;
         font-weight: bold;
        }
-       
+
        .form-section {
         margin-top: 10px;
         margin-bottom: 30px;
