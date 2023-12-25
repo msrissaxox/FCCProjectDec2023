@@ -88,7 +88,6 @@ padding: 10px;
     justify-content: center;
     align-items: center;
     grid-area: 1 / 1 / 1 / 1;
-   
     margin: 10px;
     padding: 25px;
 }
@@ -107,9 +106,16 @@ padding: 10px;
 
   #products {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     grid-row: 2;
-    grid-column: 1 / span 2;;
+    grid-column: 1 / span 2;
+  }
+  .products1, .products2, .products3, .products4 {
+    position: relative;
+    border: solid;
+  }
+  .one {
+    position: absolute;
   }
 
   .form-section {
@@ -123,30 +129,16 @@ padding: 10px;
     border-radius: 5px;
     height: 20px;
   }
-  
-  #products img {
-    max-height: 450px;
-    display: inline-block;
-    position: relative;
-    max-width: 350px;
-  }
+
+
+
 #locations {
     display: inline-flex;
     justify-content: space-between;
     width: 90vw;
     margin: 10px 50px;
 }
-.form-section {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#products {
-    position: relative;
-}
+
 
 .custom-btn {
     width: 130px;
@@ -159,13 +151,9 @@ padding: 10px;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-    position: absolute;
   }
 
   .btn-1 {
@@ -175,27 +163,17 @@ padding: 10px;
   }
   .btn-1:hover {
      background: rgb(0,3,255);
-  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
   }
-  
-.one {
-   top: 85%;
-   left: 8%;
-}
-.two {
-    top: 85%;
-    left: 35%;
-}
+ 
+  #products img {
+    max-height: 450px;
+    display: inline-block;
+    max-width: 350px;
+  }
+ 
 
-.three {
-    top: 85%;
-    left: 59%
-}
 
-.four {
-    top: 85%;
-    left: 85%
-}
 /*Media Query for Mobile */
 @media only screen and (max-width: 600px) {
     .main-section {
@@ -215,7 +193,16 @@ padding: 10px;
         font-size: 13px;
         font-weight: bold;
        }
-  }
+       
+       .form-section {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 
   /*Media Query for Ipads */
 
