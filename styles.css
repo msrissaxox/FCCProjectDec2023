@@ -106,19 +106,24 @@ html {
 
   #products {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     grid-row: 2;
     grid-column: 1 / span 2;
-    position: relative;
   }
 
 
 .products1, .products2, .products3, .products4 {
     position: relative;
     border: solid;
+    width: 100%;
+    max-height: 400px;
   }
-
+button {
+    position: absolute;
+    top: 90%;
+    left: 25%;   
+    z-index: 1;
+}
 
 .form-section {
     display: flex;
