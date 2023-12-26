@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0px 10px 10px 10px;
     background-color: #fff;
 }
 
@@ -113,7 +113,13 @@ html {
     grid-column: 1 / span 2;
     gap: 25px;
   }
-
+#products img {
+    transition: transform 250ms;
+  }
+  
+  #products img:hover {
+    transform: translateY(-10px);
+}
 
 .products1, .products2, .products3, .products4 {
     position: relative;
@@ -121,8 +127,8 @@ html {
 
 button {
     position: absolute;
-    left: 25%;
-    bottom: 0%;
+    left: 35%;
+    bottom: 5%;
     z-index: 2;
 }
 
