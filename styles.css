@@ -196,14 +196,18 @@ input[type="submit"] {
     }
 
     .heading {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     #descript p {
-        font-size: 13px;
+        font-size: 19px;
         font-weight: bold;
     }
-
+    #locations{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
     .form-section {
         margin-top: 10px;
         display: flex;
