@@ -105,7 +105,7 @@ html {
 
   #products {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     grid-row: 2;
     grid-column: 1 / span 2;
   }
@@ -114,13 +114,14 @@ html {
 .products1, .products2, .products3, .products4 {
     position: relative;
     width: 100%;
-    max-height: 450px;
+    max-height: 440px;
+    border: solid;
   }
 
 button {
     position: absolute;
-    top: 90%;
-    left: 25%;   
+    left: 25%;
+    bottom: 0%;
     z-index: 1;
 }
 
