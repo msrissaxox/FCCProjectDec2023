@@ -185,11 +185,16 @@ input[type="submit"] {
     background: rgb(0,3,255);
     background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
   }
- 
+ .entypo-menu {
+    display: none;
+ }
 
  
 /*Media Query for Mobile */
 @media only screen and (max-width: 600px) {
+    body  {
+        margin: 0px 10px 10px 0px;
+    }
     .top-nav-bar {
         z-index: 2;
     }
@@ -234,10 +239,68 @@ input[type="submit"] {
 }
 
   /*Media Query for Mobile and Ipads */
-  @media only screen and (min-device-width: 309px) and (max-device-width: 1024px) and (orientation : portrait) {
+  @media only screen and (min-device-width: 309px) and (max-device-width: 1224px) and (orientation : portrait) {
     .top-nav-bar {
         z-index: 2;
     }
+
+    .menu {
+        width: 150%;
+        color: #fff;
+        font: 10px;
+        text-align: center;
+        -webkit-box-shadow: 0px 1px 2px 0px rgba(100, 100, 100, 50);
+        box-shadow: 0px 1px 2px 0px rgba(100, 100, 100, 50);
+      } 
+      
+      ul {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        padding: 5px;
+      }
+      
+      li {
+        display: inline;
+        text-transform: uppercase;
+        padding-right: 5%;
+      }
+      
+      li:first-child {
+        display: none;
+      }
+      
+      ul:last-child {
+        padding-right: 0;
+      }
+      
+
+    
+        li {
+          display: block;
+          margin-top: 5px;
+          text-align: right;
+        }
+        
+        li:first-child {
+          display: block;
+          margin-top: auto;
+          
+        }
+        
+        ul li {
+          display: none;
+        }
+        
+        ul:hover li {
+          display: block;
+        }
+        
+       /*end query*/
+
+      
+
     .main-section {
         display: flex;
         flex-direction: column;
@@ -282,9 +345,10 @@ input[type="submit"] {
         align-items: center;
     }
     iframe {
-        max-width: 350px;
+        min-width: 200px;
+        max-width: 85vw;
         margin-top: 20px;
-  
+
     }
 
   }
