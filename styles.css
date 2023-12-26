@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    margin: 0;
+    margin: 0px;
     background-color: #fff;
 }
 
@@ -107,15 +108,15 @@ html {
   #products {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     grid-row: 2;
     grid-column: 1 / span 2;
+    border: solid red;
   }
 
 
 .products1, .products2, .products3, .products4 {
     position: relative;
-    max-height: 440px;
-    border: solid;
   }
 
 button {
@@ -140,7 +141,10 @@ input[type="submit"] {
     height: 20px;
   }
 
-
+#products img {
+    max-width: 100%;
+    max-height: 750px;
+}
 
 #locations {
     display: inline-flex;
@@ -174,9 +178,7 @@ input[type="submit"] {
     background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
   }
  
-#products img {
-    max-height: 450px;
-  }
+
  
 /*Media Query for Mobile */
 @media only screen and (max-width: 600px) {
@@ -193,7 +195,7 @@ input[type="submit"] {
     .heading {
         font-size: 35px;
     }
-    
+
     #descript p {
         font-size: 13px;
         font-weight: bold;
@@ -201,16 +203,17 @@ input[type="submit"] {
 
     .form-section {
         margin-top: 10px;
-        margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 }
 
   /*Media Query for Ipads */
   @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (orientation : portrait) {
+   
 
   }
   
