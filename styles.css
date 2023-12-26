@@ -69,28 +69,27 @@ html {
   }
 
   .main-section {
-   display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     column-gap: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .video iframe {
     border-radius: 20px;
     border: none;
-    padding: 10px;
-
 }
+
 #descript {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-area: 1 / 1 / 1 / 1;
     margin: 10px;
     padding: 25px;
 }
+
  .video {
     display: flex;
     justify-content: center;
@@ -217,6 +216,5 @@ input[type="submit"] {
   /*Media Query for Ipads */
   @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (orientation : portrait) {
 
-
-    
   }
+  
