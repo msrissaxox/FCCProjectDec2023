@@ -119,6 +119,7 @@ html {
   
   #products img:hover {
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .products1, .products2, .products3, .products4 {
@@ -274,6 +275,10 @@ input[type="submit"] {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    iframe {
+        max-width: 300px;
+  
     }
 
   }
