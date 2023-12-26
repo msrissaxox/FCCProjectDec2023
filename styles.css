@@ -177,12 +177,9 @@ input[type="submit"] {
  
 #products img {
     max-height: 450px;
-    display: inline-block;
     max-width: 350px;
   }
  
-
-
 /*Media Query for Mobile */
 @media only screen and (max-width: 600px) {
     .main-section {
